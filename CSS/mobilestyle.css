@@ -1,5 +1,9 @@
 @media screen and (max-width: 640px) {
     
+    * {
+        font-family: Helvetica;
+    }
+
     .logo {
         align-items: center;
         position: relative;
@@ -9,6 +13,7 @@
         margin-top: -5em;
         position: static;
         text-decoration: none;
+        margin-left: -2.5em;
 
 
     }
@@ -22,8 +27,8 @@
         list-style-type: none;
         opacity: 0.8;
         padding: .8em;
-        align-items: center;
-        
+        /*align-items: center;*/
+        border: 2px solid black;
     }
     
     nav ul li a {
