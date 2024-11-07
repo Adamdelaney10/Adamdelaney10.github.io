@@ -1,0 +1,36 @@
+@media screen and (min-width: 641px) and (max-width: 960px) {
+    
+    nav {
+        
+
+    }
+
+    nav ul li {
+        display: inline-block; /*This lists items horizontally and allows them to stretch.*/
+        border-radius: 1em;
+        box-shadow: 0.5em 0.5em 0.5em black;
+        /*min-width: 12%;*/
+        background-image: rgb(191, 230, 201);
+    }
+
+    .desktop {
+        display:none;
+    }
+
+    main div .center {
+        padding:15px;
+        width: 55%;
+        border-right: 0.2em solid grey;
+    }
+    main {
+        box-shadow: 0.5em 0.5em 0.5em black;
+    }
+    main div .right {
+        padding: 10px;
+        width: 35%;
+        text-align: left;
+    }
+    figure {
+        box-shadow: 0.5em 0.5em 0.5em black;
+    }
+}

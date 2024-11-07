@@ -1,0 +1,43 @@
+@media screen and (max-width: 640px) {
+    
+    .logo {
+        align-items: center;
+        position: relative;
+    }
+
+    nav {
+        margin-top: -5em;
+        position: static;
+        text-decoration: none;
+        
+
+    }
+
+    nav ul li {
+        border-radius: 1em;
+        box-shadow: 0.2em 0.2em 0.2em black;
+        text-align: center;
+        background-color: gray;
+        margin-bottom: 1em;
+        list-style-type: none;
+        opacity: 0.8;
+        padding: .8em;
+        
+    }
+    
+    nav ul li a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .tablet {
+        display: none;
+    }
+
+    .desktop {
+        display:none;
+    }
+    main {
+        box-shadow: 0.5em 0.5em 0.5em black;
+    }
+}
