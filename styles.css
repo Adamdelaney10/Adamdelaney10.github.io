@@ -7,3 +7,10 @@ h2 {
 p {
   text-align: center;
 }
+
+nav li {
+  display: inline-block;
+  position: sticky;
+  z-index: 1;
+  
+}
